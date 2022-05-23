@@ -1,0 +1,242 @@
+@media screen and (max-width: 1200px){
+    .box-heading1{
+        font-size: 1.2rem;
+        /*background-color: red;*/
+    }
+}
+
+
+@media screen and (max-width: 900px){
+
+	.nav-menu-class{
+		display: none;
+	}
+
+	label[for="chckbox"]{
+		font-size: 2rem;
+		cursor: pointer;
+		color: white;
+		position: absolute;
+		right: 1rem;
+		overflow: hidden;
+	}
+
+	input[type="checkbox"]{
+		font-size: 2rem;
+		cursor: pointer;
+		color: white;
+		position: absolute;
+		right: 1rem;
+		display: none;
+	}
+
+	.nav-menu-class-650px li{
+		border-bottom: 1px solid blue;
+	}
+
+	.nav-menu-class-650px{
+		background-color: red;
+		width: 0;
+		height: 0;
+		opacity: 0;
+		position: absolute;
+		right: 1.4rem;
+		overflow: hidden;
+		top: 3.5rem;
+		display: block;
+		box-sizing: border-box;
+		list-style: none;
+		border: 2px solid black;
+		background-image: url(https://i.pinimg.com/736x/f1/91/a7/f191a7823747d073543c03d658d39dbb.jpg);
+		background-size: cover;
+		transition: 0.1s all ease-in-out;
+	}
+
+	 input[type="checkbox"]:checked + .nav-menu-class-650px{
+	 	width: max-content;
+	 	display: flex;
+	 	flex-direction: column;
+		padding: 5px;
+		height: max-content;
+		opacity: 1;
+	}
+}
+
+
+@media screen and (max-width: 1000px){
+	.box-heading1{
+        font-size: 1rem;
+        /*background-color: yellow !important;*/
+    }
+}
+
+@media screen and (max-width: 750px){
+	 .contact-div-1{
+    	display: block !important;
+    	text-align: center;
+    }
+
+    .contact-details{
+    	text-align: center;
+    	margin-left: 30%;
+    }
+
+    #btn{
+    	margin-top: 10px;
+    }
+
+    .contact-side{
+	    margin-left: 0px;
+	    text-align: justify;
+	    padding-top: 60px;
+	    color: white;
+	    font-size: 10px;
+	    width: 80%;
+	    display: inline-block;
+	}
+
+	.contact-Address{
+		margin-top: 14px;
+		/*text-align: center;*/
+	}
+
+	.last-link{
+		margin-left: 0px;
+	}
+
+}
+
+
+
+@media screen and (max-width: 600px){
+
+	.box-heading1{
+        font-size: 0.9rem;
+        /*background-color: yellow !important;*/
+    }
+
+    .percentage-parent{
+    	margin-top: 5px;
+    }
+
+    .inst-name,.inst-name-jr,.year-pass{
+    	font-size: 0.8rem !important;
+    	padding: 7px 0px 7px 0px;
+    }
+
+    .timeline-box-edu{
+        padding-left: 50px;
+        width: 87%;
+        border: none;
+        margin-top: 20px;
+    }
+
+   
+    
+    .timeline-box-edu:nth-child(2n+1)::after{
+        position: absolute;
+        left: 0% !important;
+    }
+
+    .projects{
+    	display: flex;
+    	flex-direction: column;
+    	margin-top: 20px;
+    	justify-content: space-around;
+    }
+
+    .prjct-size{
+    	margin-top: 20px;
+    }
+    .timeline-box:nth-child(2n+1)::after{
+    	position: absolute;
+        left: 0% !important;
+    }
+
+
+    .timeline-divider-edu{
+        left: 6.7%;
+        top: 9%;
+    }
+
+    .timeline-divider{
+    	left: 6.7%;
+        top: 5%;
+    }
+
+    #experience{
+    	text-align: center;
+    }
+
+    .box-heading{
+    	text-align: left;
+    }
+    .box-coding,.date1{
+    	padding: 7px 0px 7px 0px;
+    	font-size: 1rem;
+    }
+
+    .timeline-box-edu:nth-child(2n){
+        left: 5%;
+    }
+
+    .timeline-box:nth-child(2n){
+    	left: 5%;
+    }
+
+    /*even red dots*/
+    .timeline-box-edu:nth-child(2n)::after{
+        left: -1% !important;
+    }
+
+    .timeline-box:nth-child(2n)::after{
+    	left: -1%;
+    }
+
+    /*odd red dots*/
+    .timeline-box-edu:nth-child(2n+1)::after{
+        left: -1% !important;
+    }
+
+    .timeline-box:nth-child(2n+1)::after{
+    	left: -1% !important;
+    }
+
+
+    .contact-div-1{
+    	display: block !important;
+    	text-align: center;
+    }
+
+    .contact-details{
+    	text-align: center;
+    	margin-left: 30%;
+    }
+
+    #btn{
+    	margin-top: 10px;
+    }
+
+    .contact-side{
+	    margin-left: 0px;
+	    text-align: justify;
+	    padding-top: 60px;
+	    color: white;
+	    font-size: 10px;
+	    width: 80%;
+	    display: inline-block;
+	}
+
+	.contact-Address{
+		margin-top: 14px;
+		/*text-align: center;*/
+	}
+
+	.last-link{
+		margin-left: 0px;
+	}
+}
+
+
+
+
